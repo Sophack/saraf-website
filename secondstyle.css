@@ -1,0 +1,137 @@
+:root {
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  background-image: url("skyline.jpg");
+  row-gap: 20px;
+
+}
+
+.wrapper{
+  display: block;
+}
+
+.wrapper img{
+  width: 300px;
+  height: 200px;
+}
+
+
+
+body{
+  border: solid rgb(207, 207, 98) 5px;
+  padding: 5%;
+  width: 200%;
+  flex-direction: column;
+  color: #FFF;
+background-color: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+  
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 70px;
+  width: 90%;
+  font-size: 200%;
+  border: solid;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #faeaea;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  max-height: 150px;
+  font-size: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  justify-items: center;
+}
+
+
+button {
+  
+  background-image: linear-gradient(to right, 
+  rgb(239, 225, 122) 0%, rgb(241, 240, 230) 50%, rgb(236, 227, 129) 100%); 
+  
+  box-shadow: rgb(133, 130, 130) 18px 5px 15px 5px;
+  font-size: 20px;
+  padding: 15px 15px 15px 15px ;
+  text-decoration: none;
+  color: rgb(7, 2, 2);
+  border: none;
+  border-radius: 55px;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #faeaea9c;
+  border-radius: 5px;
+  backface-visibility: visible;
+  justify-content: center;
+  color: rgb(0, 4, 7);
+  box-shadow: 4px -5px 10px 10px rgb(116, 116, 122), -1px 20px 10px 10px rgb(238, 238, 39) ;
+  background-image: linear-gradient(to right, 
+  rgb(231, 205, 15) 0%, rgb(241, 240, 230) 50%, rgb(241, 231, 92) 100%); 
+
+
+}
+
+
+
+
+.content .card{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-family: 'Open Sans', sans-serif;
+  text-transform:uppercase;
+  font-size: 50px;
+}
+
+.is-rounded {
+ border-radius: 20%;
+ 
+
+}
+
+.has-shadow {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  
+}
+.card .description {
+  font-size: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  -moz-line-clamp: 6;
+}
+
+#logo {
+height: 300px;
+width: 200px;
+border-radius: 10%;
+
+
+}
+
+h2.title{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  
+}
+

@@ -1,0 +1,173 @@
+
+
+body {
+  font-size: 20px;
+  font-family: 'Open Sans', cursive; 
+  
+  
+}
+
+nav {
+  list-style: none;
+  position: fixed;
+  background: transparent;
+  padding: 2%;
+  text-align: center;
+  border: none;
+}
+nav a {
+  text-decoration: none;
+  border-radius: 50px;  
+  background-color: #d7e5b2e2;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 8px 10px rgba(201, 190, 39, 0.5);
+
+}
+.logo {
+  height: 300px;
+  width: 500px;
+}
+
+.hero {
+  background: url("../cp2.jpg");
+  background-position-y: center;
+  background-size: cover;
+
+}
+
+.hero img{
+  box-shadow: 10px 10px 8px 10px rgb(31 53 94 / 50%);
+  height: 300px;
+  width: 200px;
+  border-radius: 10%;
+  margin: 10px 0px 0px 300px;
+}
+
+
+.heroquote {
+  margin-top: 700px;
+  color: #e0e1ef;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+
+
+.infoblurb {
+  line-height: 30px;
+  background-color: rgb(229, 209, 144);
+  font-size: 30px;
+  color: rgb(84, 80, 80);
+  border-style: outset;
+  list-style: none;
+}
+
+
+
+.quoteabout {
+  text-transform: uppercase;
+  color: rgb(92, 83, 83);
+  line-height: 40px;
+  background: rgba(69, 49, 184, 0.225);
+  border-radius: 50%;
+  height: 50%;
+  
+  
+}
+
+
+
+.topbtn {
+  display: flex;
+  position: relative;
+  padding: 6px 14px;
+  border-radius: 16px;
+  color: #080108;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-image: linear-gradient(to right, 
+  rgb(231, 205, 15) 0%, rgb(241, 240, 230) 50%, rgb(241, 231, 92) 100%); 
+  box-shadow: rgb(133, 130, 130) 18px 5px 15px 5px;
+  font-size: 20px;
+  border: none;
+}
+
+
+
+.topbtn:active {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+    0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+  
+}
+
+@media (min-width: 280px) and (max-width: 720px) {
+  .hero {
+    display: flex;
+    font-size: 50px;
+    background-image: none;
+    justify-content: center;
+  }
+  
+  .social{
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    justify-content: center;
+    margin-top: -100px;
+    
+
+  }
+  .logo{
+    height: 0;
+    width: 0;
+
+    }
+
+  .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20%;
+  }
+  
+  .aboutme p{
+    display: none;
+  }
+  
+
+  }
+
+
+
+@media (min-width: 720px) {
+  .hero {
+    gap: 2rem;
+    display: flex;
+    font-size: 30px;
+  }
+  .aboutme {
+    height: fit-content;
+    padding: 5%;
+  }
+}
+
+
+
+footer {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #faeaea9c;
+  border-radius: 5px;
+  backface-visibility: visible;
+  justify-content: center;
+  color: rgb(0, 4, 7);
+  box-shadow: 4px -5px 10px 10px rgb(116, 116, 122), -1px 20px 10px 10px rgb(238, 238, 39) ;
+  
+}
+
